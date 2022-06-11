@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+<h2>Click at the top of a column to drop a disk and Connect-Four!</h2>
+<h4>Enter the dimensions of the board.</h4>
+
+<form action="" id="form">
+  <label for="width">Width: </label>
+  <input type="text" name="width" id="width"
+    placeholder="Value must bebetween 6 and 12">
+  <label for="height"> Height: </label>
+  <input type="text" name="height" id="height"
+    placeholder="Value must bebetween 6 and 12">
+  <button id="go">Start Game</button>
+</form>
+
+
+
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
