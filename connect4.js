@@ -98,8 +98,9 @@ function placeInTable(y, x) {
 
 function endGame(msg) {
   alert(msg);
+  const top = document.getElementById('column-top');
+  top.removeEventListener('click', handleClick);
 }
-
 
 
 function handleClick(evt) {
