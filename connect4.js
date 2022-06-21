@@ -9,7 +9,7 @@
  e.preventDefault();
  let WIDTH = document.getElementById("width").value;
  let HEIGHT = document.getElementById("height").value;
-   
+ document.getElementById('go').disabled = true;  
  const board = [];   // memory board
  
  let currPlayer = 1; // active player: 1 or 2
